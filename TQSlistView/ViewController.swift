@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//轻量型点击切换分类
 class ViewController: UIViewController {
    var pageViewController:UIPageViewController!
    let arr = ["香蕉","苹果","橘子","哈密瓜","西瓜","红心柚子"]
