@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681140C520804A290098306C /* TQSListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681140C320804A290098306C /* TQSListViewController.swift */; };
+		681140C620804A290098306C /* TQSListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681140C420804A290098306C /* TQSListViewController.xib */; };
 		6813C0D7207E148D00DD76AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6813C0D6207E148D00DD76AA /* AppDelegate.swift */; };
 		6813C0D9207E148D00DD76AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6813C0D8207E148D00DD76AA /* ViewController.swift */; };
 		6813C0DC207E148D00DD76AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6813C0DA207E148D00DD76AA /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		681140C320804A290098306C /* TQSListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQSListViewController.swift; sourceTree = "<group>"; };
+		681140C420804A290098306C /* TQSListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TQSListViewController.xib; sourceTree = "<group>"; };
 		6813C0D3207E148D00DD76AA /* TQSlistView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQSlistView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6813C0D6207E148D00DD76AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6813C0D8207E148D00DD76AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				6813C0DD207E148D00DD76AA /* Assets.xcassets */,
 				6813C0DF207E148D00DD76AA /* LaunchScreen.storyboard */,
 				6813C0E2207E148D00DD76AA /* Info.plist */,
+				681140C320804A290098306C /* TQSListViewController.swift */,
+				681140C420804A290098306C /* TQSListViewController.xib */,
 			);
 			path = TQSlistView;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6813C0E1207E148D00DD76AA /* LaunchScreen.storyboard in Resources */,
+				681140C620804A290098306C /* TQSListViewController.xib in Resources */,
 				6813C0DE207E148D00DD76AA /* Assets.xcassets in Resources */,
 				6813C0DC207E148D00DD76AA /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6813C0D9207E148D00DD76AA /* ViewController.swift in Sources */,
+				681140C520804A290098306C /* TQSListViewController.swift in Sources */,
 				6813C0E9207E149C00DD76AA /* TQSlidingList.swift in Sources */,
 				6813C0D7207E148D00DD76AA /* AppDelegate.swift in Sources */,
 			);
